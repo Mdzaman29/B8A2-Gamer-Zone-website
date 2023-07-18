@@ -1,0 +1,72 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@700&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+</style>
+
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+.nav-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 25px 12rem;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+#gamer {
+    color: #FF42A5;
+    
+}
+
+.nav-title {
+    display: flex;
+    height: 20px;
+    width: 20px;
+    align-items: center; 
+    gap: 5px;
+    font-size: 25px;
+    font-weight: 700;
+}
+.nav-manus {
+    display: flex;
+    gap: 20px ;
+    
+}
+
+.nav-items {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-weight: 500;
+}
+
+.button {
+    align-self: center;
+}
+
+
+.nav-btn {
+    width: 150px;
+    height: 30px;
+    text-align:left;
+    border-radius: 10px;
+    border: none;
+}
+
+.youtube {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    right: 3.8rem;
+    top: 5px;
+}
+.tiktok {
+    width: 25px;
+    height: 20px;
+    position: relative;
+    right: 3.7rem;
+    top: 5px;
+}
+/* nav section end */
