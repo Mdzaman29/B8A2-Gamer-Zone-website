@@ -251,6 +251,7 @@ body {
     height: 3rem;
     border-radius: 30px;
     border-style: none;
+    background-color: #FFF;
     text-align: right;
     padding-right: 10px;
     margin-bottom: 20px;
@@ -261,6 +262,7 @@ body {
     height: 3rem;
     border-radius: 30px;
     border-style: none;
+    background-color: #FFF;
     text-align: right;
     padding-right: 10px;
 }
@@ -269,6 +271,7 @@ body {
     height: 3rem;
     border-radius: 30px;
     border-style: none;
+    background-color: #FFF;
     text-align: right;
     padding-right: 10px;
 }
@@ -277,6 +280,7 @@ body {
     height: 3rem;
     border-radius: 30px;
     border-style: none;
+    background-color: #FFF;
     text-align: right;
     padding-right: 10px;
 }
@@ -285,6 +289,7 @@ body {
     height: 3rem;
     border-radius: 30px;
     border-style: none;
+    background-color: #FFF;
     text-align: right;
     padding-right: 10px;
 }
@@ -293,6 +298,7 @@ body {
     height: 3rem;
     border-radius: 30px;
     border-style: none;
+    background-color: #FFF;
     text-align: right;
     padding-right: 10px;
 }
@@ -301,6 +307,7 @@ body {
     height: 3rem;
     border-radius: 30px;
     border-style: none;
+    background-color: #FFF;
     text-align: right;
     padding-right: 10px;
 }
@@ -309,6 +316,7 @@ body {
     height: 3rem;
     border-radius: 30px;
     border-style: none;
+    background-color: #FFF;
     text-align: right;
     padding-right: 10px;
 
@@ -318,8 +326,16 @@ body {
     height: 3rem;
     border-radius: 30px;
     border-style: none;
+    background-color: #FFF;
     text-align: right;
     padding-right: 10px;
+}
+ .btn-1:hover,.btn-2:hover,.btn-3:hover,.btn-4:hover,.btn-5:hover,.btn-6:hover,.btn-7:hover,.btn-8:hover,.btn-9:hover {
+
+    color: #FF42A5;
+    border-style: inset;
+    border-color: #FF42A5;
+
 }
 
 .rec-11{
@@ -527,11 +543,14 @@ body {
     right: 6rem;
     bottom: 7rem;
 }
-
 .button-section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    
+}
+.btn-1:hover,.btn-2:hover,.btn-3:hover,.btn-4:hover,.btn-5:hover,.btn-6:hover,.btn-7:hover,.btn-8:hover,.btn-9:hover {
+    color: #FF42A5;
+    border-style: inset;
+    border-color: #FF42A5;
 }
 .rec-11,.rec-12,.rec-13,.rec-14,.rec-15,
 .rec-16,.rec-17,.rec-18,.rec-19 {
