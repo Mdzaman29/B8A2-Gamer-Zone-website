@@ -210,6 +210,33 @@ body {
 }
 /*  online section end */
 
+.play-section {
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+    margin-top: 4rem;
+}
+.horse-img {
+    width: 25rem;
+    height: 25rem;
+    position: relative;
+}
+.talking-tom {
+    width: 10rem;
+    position: absolute ;
+    right: 32rem;
+    bottom: -82rem;
+}
+#title-play {
+    color:#FF42A5;
+}
+.play-description {
+    font-size: 10px;
+}
+
+
+
+
 
 
 
@@ -277,13 +304,29 @@ body {
     .img-pngwing {
         width: 25rem;
         height: 25rem;
-
     }
     .team-gamer {
     font-size: 20px;
     font-weight: 700;
 }
-    
+    .online-game-img {
+        flex-direction: column;
+    }
+    .play-section {
+        flex-direction: column;
+    }
+    .horse-img {
+    width: 15rem;
+    height: 15rem;
+    margin-left: 3rem;
+    position: relative;
+}
+.talking-tom {
+    width: 8rem;
+    position: relative;
+    right: 6rem;
+    bottom: 7rem;
+}
     
     
 }
