@@ -126,10 +126,6 @@ body {
     gap: 2rem;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 }
-
-.gamer-team {
-    
-}
 .team-title {
     font-size: 30px;
     font-weight: 700;
@@ -151,6 +147,69 @@ body {
     font-size: 25px;
     font-weight: 700;
 }
+/* online game section */
+
+.online-title {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 2rem;
+}
+#funny {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+    font-weight: 700;
+}
+.description {
+    text-align: center;
+}
+
+.online-game-img {
+    display: flex;
+    gap: 30px;
+    margin-left: 6rem;
+}
+.img-rec-4 {
+    width: 15rem;
+    height: 20rem;
+}
+.img-rec-6 {
+    width: 15rem;
+    height: 20rem;
+}
+.img-rec-5 {
+    width: 15rem;
+    height: 20rem;
+}
+.img-rec-7 {
+    width: 15rem;
+    height: 20rem;
+}
+.watch {
+    color: #FF42A5;
+    position: absolute;
+    bottom: 10rem;
+    left: 4rem;
+}
+.online-div{
+    position: relative;
+}
+.play-btn {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 9rem;
+    left: 5.5rem;
+}
+.img-rec-7:hover{
+    filter: brightness(25%); 
+}
+/*  online section end */
+
 
 
 
@@ -204,9 +263,27 @@ body {
         margin-left: 10px;
     }
     .for-position {
-        position: relative; 
-        top: -23rem;
+        position: absolute; 
+        top: 25rem;
         margin-left: 4rem;
     }
+    /* Header section end */
+
+    .gamer-section {
+        flex-direction: column;
+        margin: 20px;
+        padding: 1rem;
+    }
+    .img-pngwing {
+        width: 25rem;
+        height: 25rem;
+
+    }
+    .team-gamer {
+    font-size: 20px;
+    font-weight: 700;
+}
+    
+    
     
 }
