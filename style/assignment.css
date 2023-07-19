@@ -233,6 +233,129 @@ body {
 .play-description {
     font-size: 10px;
 }
+/* horse section end */
+
+.button-section {
+    margin-top: 50px;
+    position: relative;
+    padding-left: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+.btn-1{
+    width: 10rem;
+    height: 3rem;
+    border-radius: 30px;
+    border-style: none;
+    text-align: right;
+    padding-right: 10px;
+}
+.btn-2{
+    width: 11rem;
+    height: 3rem;
+    border-radius: 30px;
+    border-style: none;
+    text-align: right;
+    padding-right: 10px;
+}
+.btn-3{
+    width: 10rem;
+    height: 3rem;
+    border-radius: 30px;
+    border-style: none;
+    text-align: right;
+    padding-right: 10px;
+}
+.btn-4{
+    width: 12rem;
+    height: 3rem;
+    border-radius: 30px;
+    border-style: none;
+     text-align: right;
+      padding-right: 10px;
+}
+.btn-5{
+    width: 10rem;
+    height: 3rem;
+    border-radius: 30px;
+    border-style: none;
+    text-align: right;
+    padding-right: 10px;
+}
+.btn-6{
+    width: 12rem;
+    height: 3rem;
+    border-radius: 30px;
+    border-style: none;
+    text-align: right;
+    padding-right: 10px;
+}
+.btn-7{
+    width: 13rem;
+    height: 3rem;
+    border-radius: 30px;
+    border-style: none;
+    text-align: right;
+    padding-right: 10px;
+}
+.btn-8{
+    width: 10rem;
+    height: 3rem;
+    border-radius: 30px;
+    border-style: none;
+    text-align: right;
+    padding-right: 10px;
+
+}
+.btn-9{
+    width: 10rem;
+    height: 3rem;
+    border-radius: 30px;
+    border-style: none;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.rec-11{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 6rem ;
+    top: 5px;
+}
+.rec-12{
+    width: 40px;
+    height: 40px;
+}
+.rec-13{
+    width: 40px;
+    height: 40px;
+}
+.rec-14{
+    width: 40px;
+    height: 40px;
+}
+.rec-15{
+    width: 40px;
+    height: 40px;
+}
+.rec-16{
+    width: 40px;
+    height: 40px;
+}
+.rec-17{
+    width: 40px;
+    height: 40px;
+}
+.rec-18{
+    width: 40px;
+    height: 40px;
+}
+.rec-19{
+    width: 40px;
+    height: 40px;
+}
 
 
 
