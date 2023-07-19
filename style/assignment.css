@@ -382,37 +382,78 @@ body {
     position: absolute;
     right: 26.3rem;
 }
+/* footer section start */
 
+.footer {
+    color: white;
+    padding: 20px;
+    background-color: #0B0223;
+}
 
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-title {
 
+    font-size: 30px;
+    font-weight: 700;
+}
+.span-1 {
+    color: #FF42A5;
+}
+.game-logo {
+    width: 80px;
+    height: 40px;
+}
+.know-about-us {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*  For Tab */
-@media screen and (min-width: 430px) and (max-width: 770px) {
-   
+.link-btn {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+.twitter {
+    width: 30px;
+    height: 30px;
+    background-color: #FFF;
+}
+.facebook {
+    width: 30px;
+    height: 30px;
+}
+.youtube-btn {
+    width: 30px;
+    height: 30px;
+}
+.apple {
+    width: 30px;
+    height: 30px;
+    background: #FFF;
+}
+.footer-description {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.60);
+}
+#copy-sec {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.60);
 }
 
 
-/* For Mobile */
+
+/*    For Mobile     */
+/*    for mobile    */
+
+
 @media screen and (max-width: 430px) {
     .nav-container {
         padding: 35px ;
@@ -545,6 +586,23 @@ body {
     position: absolute;
     left: 14.5rem;
     top: 9rem;
+}
+
+.footer{
+    padding: 50px;
+}
+.know-about-us {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.link-btn {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+.footer-description {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
 }
 
 
